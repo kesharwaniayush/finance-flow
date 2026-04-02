@@ -82,7 +82,7 @@ flowchart TD
     B --> D[Transactions]
     B --> E[Insights]
 
-    B --> F[State (Context API)]
+    F[State - Context API]
 
     F --> G[Transactions Data]
     F --> H[User Role]

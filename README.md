@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/public/readme/banner.png" width="100%" alt="finance Dashboard Preview Banner"/>
+  <img src="/public/banner.png" width="100%" alt="finance Dashboard Preview Banner"/>
 </p>
 
 <h1 align="center">Finance Dashboard </h1>

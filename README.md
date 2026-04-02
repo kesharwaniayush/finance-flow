@@ -70,36 +70,28 @@ The project focuses on **component-based architecture, efficient state managemen
 
 ---
 
-##  Architecture
+## 🏗️ Architecture
 
 > Clean separation of concerns with scalable state and reusable components.
 
+```mermaid
 flowchart TD
-    A[User Interface] --> B[React Components]
+    A[UI] --> B[Components]
 
     B --> C[Dashboard]
     B --> D[Transactions]
     B --> E[Insights]
-    B --> F[Reusable UI]
 
-    C --> G[Charts (Recharts)]
-    D --> H[Transaction Table]
-    E --> I[Analytics Logic]
+    B --> F[State (Context API)]
 
-    B --> J[Context API]
+    F --> G[Transactions Data]
+    F --> H[User Role]
+    F --> I[Filters]
 
-    J --> K[Transactions State]
-    J --> L[User Role]
-    J --> M[Filters/Search]
-    J --> N[Theme State]
+    G --> J[Local Storage]
+    J --> F
 
-    K --> O[Local Storage]
-    L --> O
-    M --> O
-    N --> O
-
-    O --> J
-
+```
 ## Detailed Implementation
 
 ### Component Architecture

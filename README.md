@@ -7,7 +7,7 @@
 
 <div align="center">
 
-<a href="#">
+<a href="https://finance-flow-five-sigma.vercel.app/" target="_blank">
   <img src="https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge&logo=vercel" />
 </a>
 <a href="#">
@@ -82,7 +82,7 @@ flowchart TD
     B --> D[Transactions]
     B --> E[Insights]
 
-    F[State - Context API]
+    B --> F[State - Context API]
 
     F --> G[Transactions Data]
     F --> H[User Role]
